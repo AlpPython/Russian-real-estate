@@ -1,4 +1,7 @@
 # Russian-real-estate
+You can download original dataset here:
+https://huggingface.co/datasets/daniilak/Russia_Real_Estate_2021
+
 That project provides categorical boosting model which has 0.913 R-squared coefficient and predicts russian real estate prices in 2018-2021 time period with about 11.45% average and 8.4% accuracy. This project also provides some visualisations and interactive maps. Model works in 1-100 million rubbles price variety and 16-125 square meters price 
 
 Initially CatBoost model has R-squared equal to only 0.3 cause of some strange values where price for square meter was extremely lower or higher than average, so I cleaned original database from that values
